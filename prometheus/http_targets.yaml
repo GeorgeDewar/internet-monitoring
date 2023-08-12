@@ -1,0 +1,5 @@
+- targets:  # url;humanname;routing;switch
+    - http://www.google.com/;google.com
+    - https://github.com/;github.com
+    - https://www.trademe.co.nz/;trademe.co.nz
+    - https://www.microsoft.com/;microsoft.com

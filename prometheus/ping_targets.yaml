@@ -1,0 +1,7 @@
+- targets:  # ip;humanname
+    - 192.168.20.1;router
+    - 192.168.20.11;switch
+    - 202.180.64.10;2degrees DNS
+    - chromecast;chromecast (WiFi)
+    - 1.1.1.1;cloudflare DNS (NZ)
+    - 8.8.8.8;google DNS (AU)
