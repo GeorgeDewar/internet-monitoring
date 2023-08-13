@@ -1,8 +1,11 @@
-- targets:  # ip;humanname
-    - 192.168.20.1;router
-    - 192.168.20.11;switch
-    - 202.180.64.10;2degrees DNS
-    - chromecast;chromecast (WiFi 5GHz)
-    - 192.168.20.50;lumi (wiFi 2.4GHz)
-    - 1.1.1.1;cloudflare DNS (NZ)
-    - 8.8.8.8;google DNS (AU)
+- targets:  # ip;humanname;connectiontype
+    - 192.168.20.1;router;wired
+    - 192.168.20.11;switch;wired
+    - 192.168.20.21;lounge-ap;wired
+    - 192.168.20.22;hallway-ap;wired
+    - 202.180.64.10;2degrees DNS;internet
+    - chromecast;chromecast;WiFi 5GHz
+    - 192.168.20.50;lumi;WiFi 2.4GHz
+    - 192.168.20.165;garage-door;WiFi 2.4GHz
+    - 1.1.1.1;cloudflare DNS (NZ);internet
+    - 8.8.8.8;google DNS (AU);internet
