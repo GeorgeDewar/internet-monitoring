@@ -286,8 +286,8 @@
         "defaultColor": "#757575",
         "exponent": 0.5,
         "max": 1,
-        "min": 0,
-        "mode": "discrete",
+        "min": 0.98,
+        "mode": "spectrum",
         "thresholds": [
           {
             "$$hashKey": "object:68",
@@ -333,7 +333,7 @@
             "uid": "P1809F7CD0C75ACF3"
           },
           "editorMode": "code",
-          "expr": "probe_success",
+          "expr": "avg_over_time(probe_success[$__interval])",
           "format": "time_series",
           "interval": "",
           "intervalFactor": 1,
@@ -771,7 +771,7 @@
     "list": []
   },
   "time": {
-    "from": "now-30m",
+    "from": "now-24h",
     "to": "now"
   },
   "timepicker": {
@@ -802,6 +802,6 @@
   "timezone": "browser",
   "title": "Internet connection",
   "uid": "o9mIe_Aik",
-  "version": 1,
+  "version": 6,
   "weekStart": ""
 }
